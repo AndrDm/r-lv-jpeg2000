@@ -1,0 +1,10 @@
+[package]
+name = "jpeg2000_export"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+opencv = { version = "0.101", default-features = false, features = ["imgcodecs"] }
