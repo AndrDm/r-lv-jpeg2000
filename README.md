@@ -3,7 +3,7 @@ Rust wrapper for JPEG 2000 image export from LabVIEW.
 
 ## Important
 
-Set the OpenCV paths correctly before building:
+Set the OpenCV paths correctly before building (assuming OpenCV 5 is copied in `C:\OpenCV`):
 
 ```
 set OPENCV_LINK_PATHS=C:\OpenCV\build\x64\vc16\lib
@@ -51,4 +51,4 @@ Example:
 
 This is just a simple example. Error handling is intentionally minimal to keep the code easy to understand.
 
-Compiled jpeg2000_export.dll as well as  opencv_world500.dll in the Release.
+Complete Example including compiled jpeg2000_export.dll as well as  opencv_world500.dll in the [Release](https://github.com/AndrDm/r-lv-jpeg2000/releases/download/0.1.0/example.0.1.0.zip).
