@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Cargo Build Release (OpenCV)",
+    "command": "cmd.exe",
+    "args": [
+      "/C",
+      "call \"C:\\Program Files\\Microsoft Visual Studio\\18\\Professional\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cargo build --release"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+
+
+  {
+    "label": "Cargo Clippy (OpenCV)",
+    "command": "cmd.exe",
+    "args": [
+      "/C",
+      "call \"C:\\Program Files\\Microsoft Visual Studio\\18\\Professional\\VC\\Auxiliary\\Build\\vcvars64.bat\" && cargo clippy"
+    ],
+    "cwd": "$ZED_WORKTREE_ROOT"
+  }
+]

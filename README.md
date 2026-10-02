@@ -25,7 +25,7 @@ cargo clean
 cargo build --release
 ```
 
-Build must be started from x64 Native Tools Command Prompt for VS:
+Build must be started from x64 Native Tools Command Prompt for VS, by default started as `%comspec% /k "C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Auxiliary\Build\vcvars64.bat"`:
 
 ```
 **********************************************************

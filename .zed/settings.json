@@ -1,0 +1,11 @@
+{
+  "terminal": {
+    "shell": {
+      "program": "cmd.exe",
+      "args": [
+        "/K",
+        "C:\\Program Files\\Microsoft Visual Studio\\18\\Professional\\VC\\Auxiliary\\Build\\vcvars64.bat"
+      ]
+    }
+  }
+}
